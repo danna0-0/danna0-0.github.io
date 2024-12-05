@@ -1,0 +1,23 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    color: beige;
+    text-align: justify;
+}
+body{
+    background-color: #007566;
+    margin: 20px;
+}
+
+a{
+    color: beige;
+    background-color: #8C503A;
+    font-size: medium;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+h2{
+    color: beige;
+    text-align: center;
+}

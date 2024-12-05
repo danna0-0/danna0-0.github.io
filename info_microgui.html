@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="microgui.css">
+    <title>Info_MICROGUI TRAINER</title>
+</head>
+
+<body>
+    <a id="regreso" href="index.html">Regreso</a>
+    <h2>Conexión del Hardware</h2>
+    <p> Primero, se debe conectar tu tarjeta Arduino al entrenador y asegurando de que esté
+        correctamente alimentada y conectada a la computadora a través de USB.</p>
+    <h2>Carga del Programa Base</h2>
+    <p>
+        Se utiliza el IDE de Arduino para cargar el programa base en la tarjeta Arduino. Este
+        programa base se comunica con la interfaz gráfica y configura los pines necesarios para
+        cada función (relevador, LEDs, LCD, sensor, potenciómetro y LEDs RGB).
+    </p>
+    <h2>Interacción con la Interfaz Gráfica</h2>
+
+    <li> Encender el Relevador: Utiliza el apartado designado en la interfaz gráfica para enviar una señal al
+        pin correspondiente de la tarjeta Arduino que activa el relevador.
+    </li>
+    <li>Encender LEDs: Utiliza el apartado específico para controlar los LEDs conectados a ciertos pines de la
+        tarjeta Arduino.
+    </li>
+    <li>Enviar Mensajes al LCD: Escribe los mensajes que deseas mostrar en el LCD en el apartado de la
+        interfaz gráfica y envíalos a la tarjeta Arduino para que los muestre en el LCD. </li>
+    <li>Gráfica de la Señal del Sensor: Utiliza el apartado para gráficar la señal del sensor conectado a la
+        tarjeta Arduino. A medida que el sensor detecta cambios, la interfaz gráfica debe reflejar estos
+        cambios en tiempo real.
+    </li>
+    <li> Leer el Valor del Potenciómetro: Utiliza el apartado designado para leer el valor del potenciómetro
+        conectado a la tarjeta Arduino y muestra este valor en la interfaz gráfica.
+    </li>
+    <li>Control de PWM: Utiliza el apartado PWM para ajustar la intensidad de un LED RGB o controlar la
+        velocidad de un motor conectado a un pin PWM de la tarjeta Arduino.
+    </li>
+
+</body>
+
+</html>

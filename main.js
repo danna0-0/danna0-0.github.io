@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('Desarrolladora frontend Jr.')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('¡Si lo puedes imaginas, lo puedes crear!')
+    .typeString('¡Si lo puedes imaginar, lo puedes crear!')
     .pauseFor(2500)
     // Número de caracteres que se borraran 
     .deleteChars(6)

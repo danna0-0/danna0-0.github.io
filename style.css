@@ -23,9 +23,13 @@ header a{
 #app{
     color: #60A6A6;
 }
-.boton-cv{
-    color: white;
+.boton-cv {
+    
     background-color: #278C82;
+}
+.boton-cv a{
+    color: white;
+    text-decoration: none;
 }
 .caja-habilidades{
     background-color: #F2DEC4;
